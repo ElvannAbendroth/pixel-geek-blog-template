@@ -73,3 +73,12 @@ a.active {
   background-color: var(--salmon);
   box-shadow: var(--shadow-box);
 }
+
+h4 a {
+  color: var(--text-color);
+  font-weight: inherit;
+}
+
+h4 a:hover {
+  color: var(--salmon);
+}
