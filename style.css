@@ -71,25 +71,32 @@ a.active {
   box-shadow: var(--shadow-box);
 }
 
-h4 a {
+h4 a,
+h5 a {
   color: var(--text-color);
   font-weight: inherit;
 }
 
-h4 a:hover {
+h4 a:hover,
+h5 a:hover {
   color: var(--salmon);
 }
 
 .back-to-homepage {
   font-family: "Roboto Mono", "Courier New", Courier, monospace;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 137%;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
+  letter-spacing: -0.07em;
+  display: inline;
+  vertical-align: middle;
   text-decoration: none;
+  color: black;
+}
+
+.back-to-homepage:hover {
+  color: var(--salmon);
 }
 
 .flex {
@@ -98,4 +105,22 @@ h4 a:hover {
 
 .link-button {
   text-decoration: none;
+}
+
+#footer-socials {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+#footer-socials a {
+  color: black;
+}
+
+#footer-socials a:hover {
+  color: var(--pastel-purple);
+}
+
+#breadcrumbs {
+  display: flex;
 }
