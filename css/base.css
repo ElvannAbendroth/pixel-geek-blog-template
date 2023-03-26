@@ -86,7 +86,7 @@ header {
       rgba(10, 17, 44, 0.93) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("https://cdn.midjourney.com/a1734381-bcf1-4473-9d6b-b194c0651c7d/grid_0.png");
+    url("/assets/pixel-image-3.png");
 
   display: flex;
   flex-direction: column;
