@@ -1,0 +1,16 @@
+:root {
+  --dark-blue: #0a112c;
+  --teal: #2b6387;
+  --pastel-purple: #8176ca;
+  --pastel-pink: #dab4c2;
+  --salmon: hsl(7, 96%, 78%);
+  --pastel-orange: #df9d6d;
+  --pastel-yellow: #fcf3c9;
+
+  --theme-color-1: #7fffd4;
+  --theme-color-2: #ffc0cb;
+  --text-color: #000000;
+
+  --shadow-box: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+  --shadow-box-hover: 0px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}

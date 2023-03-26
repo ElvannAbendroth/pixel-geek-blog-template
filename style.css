@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import url("css/base.css");
+@import url("css/variables.css");
+
+/*Material Design Styling*/
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+
+/* CLASS IDs*/
+
+#related-posts ul {
+  margin-left: 1.5rem;
+}
+
+#related-posts ul > li {
+  font-size: 1.2rem;
+  line-height: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 1rem 0;
+}
+
+#post-info {
+  color: var(--pastel-pink);
+  font-weight: 700px;
+  font-style: italic;
+}
+
+#post-info a {
+  color: inherit;
+}
+
+#page-title {
+  vertical-align: middle;
+  height: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+a.active {
+  color: var(--pastel-pink);
+  text-decoration: underline;
+}
+
+/* Article Layout Styling */
+
+.flex-left {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.read-more {
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 137%;
+  letter-spacing: -0.07em;
+  background-color: var(--salmon);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.read-more:hover {
+  background-color: var(--salmon);
+  box-shadow: var(--shadow-box);
+}
