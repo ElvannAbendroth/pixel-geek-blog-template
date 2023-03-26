@@ -86,7 +86,7 @@ header {
       rgba(10, 17, 44, 0.93) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("/assets/pixel-image-3.png");
+    url("../assets/pixel-image-3.png");
 
   display: flex;
   flex-direction: column;
